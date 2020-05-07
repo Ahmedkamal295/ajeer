@@ -1,0 +1,6 @@
+framework module Pods_ajeer {
+  umbrella header "Pods-ajeer-umbrella.h"
+
+  export *
+  module * { export * }
+}

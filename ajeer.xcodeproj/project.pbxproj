@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580136D023140A1500435551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580136CF23140A1500435551 /* AppDelegate.swift */; };
+		580136D223140A1500435551 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580136D123140A1500435551 /* ViewController.swift */; };
+		580136D523140A1500435551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580136D323140A1500435551 /* Main.storyboard */; };
+		580136D723140A1600435551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580136D623140A1600435551 /* Assets.xcassets */; };
+		580136DA23140A1600435551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580136D823140A1600435551 /* LaunchScreen.storyboard */; };
+		58A71F3F231418F000B3C714 /* JF-Flat-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58A71F34231418F000B3C714 /* JF-Flat-regular.ttf */; };
+		58A71F40231418F000B3C714 /* JF-Flat-medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58A71F35231418F000B3C714 /* JF-Flat-medium.ttf */; };
+		58A71F41231418F000B3C714 /* zahra_arabic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 58A71F36231418F000B3C714 /* zahra_arabic.otf */; };
+		58A71F42231418F000B3C714 /* OoredooArabic-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58A71F37231418F000B3C714 /* OoredooArabic-Heavy.ttf */; };
+		58A71F43231418F000B3C714 /* OoredooArabic-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58A71F38231418F000B3C714 /* OoredooArabic-Regular.ttf */; };
+		58A71F44231418F000B3C714 /* Eskorte.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58A71F39231418F000B3C714 /* Eskorte.ttf */; };
+		58A71F45231418F000B3C714 /* Al-Hurra-Txtreg-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58A71F3A231418F000B3C714 /* Al-Hurra-Txtreg-Light.ttf */; };
+		58A71F46231418F000B3C714 /* NEOSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58A71F3B231418F000B3C714 /* NEOSans-Medium.ttf */; };
+		58A71F47231418F000B3C714 /* zahra_arabic_bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 58A71F3C231418F000B3C714 /* zahra_arabic_bold.otf */; };
+		58A71F48231418F000B3C714 /* JF Flat regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58A71F3D231418F000B3C714 /* JF Flat regular.ttf */; };
+		58A71F49231418F000B3C714 /* 4_4A.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 58A71F3E231418F000B3C714 /* 4_4A.ttf */; };
+		58A71F4B2314224400B3C714 /* catsC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A71F4A2314224400B3C714 /* catsC.swift */; };
+		58A71F4D231429DF00B3C714 /* hdrC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A71F4C231429DF00B3C714 /* hdrC.swift */; };
+		58A71F4F23142EC600B3C714 /* constats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A71F4E23142EC600B3C714 /* constats.swift */; };
+		58A71F52231430B400B3C714 /* catCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A71F51231430B400B3C714 /* catCell.swift */; };
+		58A71F5523143AC600B3C714 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A71F5423143AC600B3C714 /* user.swift */; };
+		58A71F5723143BB700B3C714 /* scatsC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A71F5623143BB700B3C714 /* scatsC.swift */; };
+		58F132DB231D60EA007AA305 /* loginC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F132DA231D60EA007AA305 /* loginC.swift */; };
+		58F132DD231D63D7007AA305 /* tabsC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F132DC231D63D7007AA305 /* tabsC.swift */; };
+		58F132E9231D74D6007AA305 /* tabs2C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F132E8231D74D6007AA305 /* tabs2C.swift */; };
+		58F132F2231D7699007AA305 /* ViewPagerTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F132EC231D7699007AA305 /* ViewPagerTabView.swift */; };
+		58F132F3231D7699007AA305 /* ViewPagerTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F132ED231D7699007AA305 /* ViewPagerTab.swift */; };
+		58F132F4231D7699007AA305 /* ViewPagerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F132EE231D7699007AA305 /* ViewPagerController.swift */; };
+		58F132F5231D7699007AA305 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F132EF231D7699007AA305 /* ItemViewController.swift */; };
+		58F132F6231D7699007AA305 /* ViewPagerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F132F0231D7699007AA305 /* ViewPagerOptions.swift */; };
+		E8E036F9BF197CA2C5236475 /* Pods_ajeer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3A546241257322EC39BBB1 /* Pods_ajeer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		117E567CC3CC803A1163AB2C /* Pods-ajeer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ajeer.debug.xcconfig"; path = "Target Support Files/Pods-ajeer/Pods-ajeer.debug.xcconfig"; sourceTree = "<group>"; };
+		20371A4D0D402B0EFB84FA16 /* Pods-ajeer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ajeer.release.xcconfig"; path = "Target Support Files/Pods-ajeer/Pods-ajeer.release.xcconfig"; sourceTree = "<group>"; };
+		580136CC23140A1500435551 /* ajeer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ajeer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		580136CF23140A1500435551 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		580136D123140A1500435551 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		580136D423140A1500435551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		580136D623140A1600435551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		580136D923140A1600435551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		580136DB23140A1600435551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58A71F34231418F000B3C714 /* JF-Flat-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JF-Flat-regular.ttf"; sourceTree = "<group>"; };
+		58A71F35231418F000B3C714 /* JF-Flat-medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JF-Flat-medium.ttf"; sourceTree = "<group>"; };
+		58A71F36231418F000B3C714 /* zahra_arabic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zahra_arabic.otf; sourceTree = "<group>"; };
+		58A71F37231418F000B3C714 /* OoredooArabic-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OoredooArabic-Heavy.ttf"; sourceTree = "<group>"; };
+		58A71F38231418F000B3C714 /* OoredooArabic-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OoredooArabic-Regular.ttf"; sourceTree = "<group>"; };
+		58A71F39231418F000B3C714 /* Eskorte.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eskorte.ttf; sourceTree = "<group>"; };
+		58A71F3A231418F000B3C714 /* Al-Hurra-Txtreg-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Al-Hurra-Txtreg-Light.ttf"; sourceTree = "<group>"; };
+		58A71F3B231418F000B3C714 /* NEOSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NEOSans-Medium.ttf"; sourceTree = "<group>"; };
+		58A71F3C231418F000B3C714 /* zahra_arabic_bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = zahra_arabic_bold.otf; sourceTree = "<group>"; };
+		58A71F3D231418F000B3C714 /* JF Flat regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JF Flat regular.ttf"; sourceTree = "<group>"; };
+		58A71F3E231418F000B3C714 /* 4_4A.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4_4A.ttf; sourceTree = "<group>"; };
+		58A71F4A2314224400B3C714 /* catsC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catsC.swift; sourceTree = "<group>"; };
+		58A71F4C231429DF00B3C714 /* hdrC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hdrC.swift; sourceTree = "<group>"; };
+		58A71F4E23142EC600B3C714 /* constats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constats.swift; sourceTree = "<group>"; };
+		58A71F51231430B400B3C714 /* catCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catCell.swift; sourceTree = "<group>"; };
+		58A71F5423143AC600B3C714 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		58A71F5623143BB700B3C714 /* scatsC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = scatsC.swift; sourceTree = "<group>"; };
+		58F132DA231D60EA007AA305 /* loginC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginC.swift; sourceTree = "<group>"; };
+		58F132DC231D63D7007AA305 /* tabsC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabsC.swift; sourceTree = "<group>"; };
+		58F132E8231D74D6007AA305 /* tabs2C.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabs2C.swift; sourceTree = "<group>"; };
+		58F132EC231D7699007AA305 /* ViewPagerTabView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerTabView.swift; sourceTree = "<group>"; };
+		58F132ED231D7699007AA305 /* ViewPagerTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerTab.swift; sourceTree = "<group>"; };
+		58F132EE231D7699007AA305 /* ViewPagerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerController.swift; sourceTree = "<group>"; };
+		58F132EF231D7699007AA305 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		58F132F0231D7699007AA305 /* ViewPagerOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPagerOptions.swift; sourceTree = "<group>"; };
+		6C3A546241257322EC39BBB1 /* Pods_ajeer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ajeer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		580136C923140A1500435551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E036F9BF197CA2C5236475 /* Pods_ajeer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27A4F089A08101DC3B26B9D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C3A546241257322EC39BBB1 /* Pods_ajeer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		580136C323140A1500435551 = {
+			isa = PBXGroup;
+			children = (
+				580136CE23140A1500435551 /* ajeer */,
+				580136CD23140A1500435551 /* Products */,
+				8C5FC7DFD26C8B5205FB5811 /* Pods */,
+				27A4F089A08101DC3B26B9D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		580136CD23140A1500435551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				580136CC23140A1500435551 /* ajeer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		580136CE23140A1500435551 /* ajeer */ = {
+			isa = PBXGroup;
+			children = (
+				58F132DE231D74A9007AA305 /* UI */,
+				58F132D9231D60CA007AA305 /* user */,
+				58F132D8231D60AC007AA305 /* models */,
+				58F132D7231D60A2007AA305 /* header */,
+				58F132D6231D6095007AA305 /* cats */,
+				58A71F502314309F00B3C714 /* cells */,
+				58A71F33231418F000B3C714 /* fonts */,
+				580136CF23140A1500435551 /* AppDelegate.swift */,
+				580136D323140A1500435551 /* Main.storyboard */,
+				580136D623140A1600435551 /* Assets.xcassets */,
+				580136D823140A1600435551 /* LaunchScreen.storyboard */,
+				580136DB23140A1600435551 /* Info.plist */,
+				580136D123140A1500435551 /* ViewController.swift */,
+			);
+			path = ajeer;
+			sourceTree = "<group>";
+		};
+		58A71F33231418F000B3C714 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				58A71F34231418F000B3C714 /* JF-Flat-regular.ttf */,
+				58A71F35231418F000B3C714 /* JF-Flat-medium.ttf */,
+				58A71F36231418F000B3C714 /* zahra_arabic.otf */,
+				58A71F37231418F000B3C714 /* OoredooArabic-Heavy.ttf */,
+				58A71F38231418F000B3C714 /* OoredooArabic-Regular.ttf */,
+				58A71F39231418F000B3C714 /* Eskorte.ttf */,
+				58A71F3A231418F000B3C714 /* Al-Hurra-Txtreg-Light.ttf */,
+				58A71F3B231418F000B3C714 /* NEOSans-Medium.ttf */,
+				58A71F3C231418F000B3C714 /* zahra_arabic_bold.otf */,
+				58A71F3D231418F000B3C714 /* JF Flat regular.ttf */,
+				58A71F3E231418F000B3C714 /* 4_4A.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		58A71F502314309F00B3C714 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				58A71F51231430B400B3C714 /* catCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		58F132D6231D6095007AA305 /* cats */ = {
+			isa = PBXGroup;
+			children = (
+				58A71F4A2314224400B3C714 /* catsC.swift */,
+				58A71F5623143BB700B3C714 /* scatsC.swift */,
+				58F132DC231D63D7007AA305 /* tabsC.swift */,
+				58F132E8231D74D6007AA305 /* tabs2C.swift */,
+			);
+			path = cats;
+			sourceTree = "<group>";
+		};
+		58F132D7231D60A2007AA305 /* header */ = {
+			isa = PBXGroup;
+			children = (
+				58A71F4C231429DF00B3C714 /* hdrC.swift */,
+			);
+			path = header;
+			sourceTree = "<group>";
+		};
+		58F132D8231D60AC007AA305 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				58A71F4E23142EC600B3C714 /* constats.swift */,
+				58A71F5423143AC600B3C714 /* user.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		58F132D9231D60CA007AA305 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				58F132DA231D60EA007AA305 /* loginC.swift */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+		58F132DE231D74A9007AA305 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				58F132EA231D7699007AA305 /* viewPager */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		58F132EA231D7699007AA305 /* viewPager */ = {
+			isa = PBXGroup;
+			children = (
+				58F132EC231D7699007AA305 /* ViewPagerTabView.swift */,
+				58F132ED231D7699007AA305 /* ViewPagerTab.swift */,
+				58F132EE231D7699007AA305 /* ViewPagerController.swift */,
+				58F132EF231D7699007AA305 /* ItemViewController.swift */,
+				58F132F0231D7699007AA305 /* ViewPagerOptions.swift */,
+			);
+			path = viewPager;
+			sourceTree = "<group>";
+		};
+		8C5FC7DFD26C8B5205FB5811 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				117E567CC3CC803A1163AB2C /* Pods-ajeer.debug.xcconfig */,
+				20371A4D0D402B0EFB84FA16 /* Pods-ajeer.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		580136CB23140A1500435551 /* ajeer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580136DE23140A1600435551 /* Build configuration list for PBXNativeTarget "ajeer" */;
+			buildPhases = (
+				1D4DEBDCAECE636CC797804F /* [CP] Check Pods Manifest.lock */,
+				580136C823140A1500435551 /* Sources */,
+				580136C923140A1500435551 /* Frameworks */,
+				580136CA23140A1500435551 /* Resources */,
+				7DC36FDDEB8B828F0A94F7D5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ajeer;
+			productName = ajeer;
+			productReference = 580136CC23140A1500435551 /* ajeer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		580136C423140A1500435551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "ramadan ali";
+				TargetAttributes = {
+					580136CB23140A1500435551 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 580136C723140A1500435551 /* Build configuration list for PBXProject "ajeer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 580136C323140A1500435551;
+			productRefGroup = 580136CD23140A1500435551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				580136CB23140A1500435551 /* ajeer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		580136CA23140A1500435551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580136DA23140A1600435551 /* LaunchScreen.storyboard in Resources */,
+				580136D723140A1600435551 /* Assets.xcassets in Resources */,
+				58A71F3F231418F000B3C714 /* JF-Flat-regular.ttf in Resources */,
+				58A71F47231418F000B3C714 /* zahra_arabic_bold.otf in Resources */,
+				580136D523140A1500435551 /* Main.storyboard in Resources */,
+				58A71F44231418F000B3C714 /* Eskorte.ttf in Resources */,
+				58A71F42231418F000B3C714 /* OoredooArabic-Heavy.ttf in Resources */,
+				58A71F48231418F000B3C714 /* JF Flat regular.ttf in Resources */,
+				58A71F43231418F000B3C714 /* OoredooArabic-Regular.ttf in Resources */,
+				58A71F45231418F000B3C714 /* Al-Hurra-Txtreg-Light.ttf in Resources */,
+				58A71F49231418F000B3C714 /* 4_4A.ttf in Resources */,
+				58A71F46231418F000B3C714 /* NEOSans-Medium.ttf in Resources */,
+				58A71F41231418F000B3C714 /* zahra_arabic.otf in Resources */,
+				58A71F40231418F000B3C714 /* JF-Flat-medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D4DEBDCAECE636CC797804F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ajeer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DC36FDDEB8B828F0A94F7D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ajeer/Pods-ajeer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ajeer/Pods-ajeer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		580136C823140A1500435551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F132F3231D7699007AA305 /* ViewPagerTab.swift in Sources */,
+				58F132F5231D7699007AA305 /* ItemViewController.swift in Sources */,
+				58A71F5723143BB700B3C714 /* scatsC.swift in Sources */,
+				58F132F4231D7699007AA305 /* ViewPagerController.swift in Sources */,
+				58F132E9231D74D6007AA305 /* tabs2C.swift in Sources */,
+				58F132DD231D63D7007AA305 /* tabsC.swift in Sources */,
+				58F132F2231D7699007AA305 /* ViewPagerTabView.swift in Sources */,
+				58A71F4B2314224400B3C714 /* catsC.swift in Sources */,
+				58A71F4F23142EC600B3C714 /* constats.swift in Sources */,
+				580136D223140A1500435551 /* ViewController.swift in Sources */,
+				58A71F4D231429DF00B3C714 /* hdrC.swift in Sources */,
+				58F132F6231D7699007AA305 /* ViewPagerOptions.swift in Sources */,
+				58A71F5523143AC600B3C714 /* user.swift in Sources */,
+				58A71F52231430B400B3C714 /* catCell.swift in Sources */,
+				58F132DB231D60EA007AA305 /* loginC.swift in Sources */,
+				580136D023140A1500435551 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		580136D323140A1500435551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580136D423140A1500435551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		580136D823140A1600435551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580136D923140A1600435551 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		580136DC23140A1600435551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		580136DD23140A1600435551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		580136DF23140A1600435551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 117E567CC3CC803A1163AB2C /* Pods-ajeer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49PB42AU3J;
+				INFOPLIST_FILE = ajeer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nn.ajeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		580136E023140A1600435551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20371A4D0D402B0EFB84FA16 /* Pods-ajeer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 49PB42AU3J;
+				INFOPLIST_FILE = ajeer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nn.ajeer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		580136C723140A1500435551 /* Build configuration list for PBXProject "ajeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580136DC23140A1600435551 /* Debug */,
+				580136DD23140A1600435551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580136DE23140A1600435551 /* Build configuration list for PBXNativeTarget "ajeer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580136DF23140A1600435551 /* Debug */,
+				580136E023140A1600435551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 580136C423140A1500435551 /* Project object */;
+}
